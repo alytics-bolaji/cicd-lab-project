@@ -4,7 +4,10 @@
   "description": "Demo app for cicd course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
+    "test": "jest --coverage",
+    "test:ci": "jest --coverage --ci --forceExit"
+
   },
   "repository": {
     "type": "git",
